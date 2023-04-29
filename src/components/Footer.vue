@@ -1,0 +1,29 @@
+<template>
+  <v-footer>
+    <v-card elevation="0" rounded="0" width="100%" class="bg-grey text-center">
+      <v-card-text>
+        <v-btn class="mw-4" icon="fas fa-comment" variant="plain" color="white">
+        </v-btn>
+        <v-btn class="mw-4" icon="fas fa-university" variant="plain" color="white">
+        </v-btn>
+        <v-btn class="mw-4" icon="fas fa-wifi" variant="plain" color="white">
+        </v-btn>
+        <v-btn class="mw-4" icon="fas fa-podcast" variant="plain" color="white">
+        </v-btn>
+      </v-card-text>
+      <v-card-tex class="text-white">
+        @{{ new Date().getFullYear() }}
+        <strong>rami all rights</strong>
+      </v-card-tex>
+    </v-card>
+  </v-footer>
+</template>
+<script>
+export default {
+}
+</script>
+<style scoped>
+.v-footer {
+  padding: 8px 0 !important
+}
+</style>
